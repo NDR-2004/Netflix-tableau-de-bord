@@ -51,19 +51,4 @@ print("vous etes sortis du programme")
 
 with open("file.json", "r", encoding="utf-8") as file:
     data = json.load(file)
-# ---------------------_>
-
-class Menu_data():
-    def __init__(self):
-        pass
-    # menu
-    def afficher_menu_principal(self):
-        print("menu")
-    for i in data:
-        print(i)
-    choix = input("tapez le nom de la key du menu pour acceder aux informations")
-
-
-    def menu_main(c_h):
-        menu_main = data[c_h][0]["description"]
 
