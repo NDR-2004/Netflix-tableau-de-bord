@@ -1,0 +1,29 @@
+# Environnements virtuels
+portfolio_env/
+.env/
+
+# Fichiers Python
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+
+# Fichiers générés par des éditeurs
+.idea/
+.vscode/
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+
+# Données sensibles
+.env
+
+# Autres fichiers spécifiques
+*.csv
+*.xlsx
+*.db
+.DS_Store
